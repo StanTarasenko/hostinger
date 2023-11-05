@@ -1,0 +1,55 @@
+.deleteBtn {
+  background-color: brown;
+  border-radius: 16px;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+
+.updateBtn {
+  background-color: dodgerblue;
+  border-radius: 16px;
+  border: 1px solid grey;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darkblue;
+  }
+}
+
+.disabledBtn {
+  background-color: lightgray;
+  border-radius: 16px;
+  border: 1px solid grey;
+  color: grey;
+  padding: 5px 10px;
+  margin-left: 8px;
+  pointer-events: none;
+}
+
+.descriptionContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+
+  & button {
+    width: 80%;
+    margin-top: 10px;
+  }
+}
+
+.deviceCard {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 10px;
+  position: relative;
+  height: 320px;
+}

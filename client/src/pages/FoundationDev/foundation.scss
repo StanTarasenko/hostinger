@@ -1,0 +1,98 @@
+.foundationContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/it2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  position: relative;
+}
+
+.foundationCards {
+  color: #12E2DC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.foundationBot{
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.foundationDialog {
+  margin-right: 10px;
+
+  & div {
+    width: 300px;
+  }
+}
+
+.foundationCard {
+  border: 1px solid #12E2DC;
+  width: 25vw;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.226);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: bold;
+
+  & img {
+    padding: 0 10px;
+  }
+}
+
+.cardText {
+  padding: 0 20px;
+}
+
+.foundationLink {
+  border: 1px solid #12E2DC;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+
+  &:hover {
+    background-color: gray;
+    color: #12E2DC;
+  }
+}
+
+.proccedBtn {
+  position: absolute;
+  bottom: 20px;
+}
+
+.cardAnotation {
+  border-top: 1px solid rgb(253, 15, 166);
+  color: rgb(253, 15, 166);
+  margin: 20px 20px 0 20px;
+  padding: 10px 0;
+}

@@ -1,0 +1,68 @@
+.devPart {
+  border-radius: 50%;
+  width: 200px;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  text-decoration: none;
+  color: #12E2DC;
+  transition: height 0.5s ease;
+  opacity: 0;
+
+  &:hover {
+    cursor: pointer;
+    // text-shadow:
+    //   0 0 7px #fff,
+    //   0 0 10px #fff,
+    //   0 0 21px #fff,
+    //   0 0 42px #0fa,
+    //   0 0 82px #0fa,
+    //   0 0 92px #0fa,
+    //   0 0 102px #0fa,
+    //   0 0 151px #0fa;
+      box-shadow:
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 5px #fff,
+      0 0 10px #0fa,
+      0 0 20px #0fa,
+      0 0 23px #0fa,
+      0 0 25px #0fa,
+      0 0 37px #0fa;  
+  }
+}
+
+.devPart.show {
+  border: 1px solid #12E2DC;
+  height: 200px;
+  opacity: 1;
+}
+
+.devPartTitle {
+  padding: 10px 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.devPartTitle.show {
+  opacity: 1;
+}
+
+.rowBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.devImg {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.devImg.show {
+  opacity: 1;
+}

@@ -1,0 +1,241 @@
+.botContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bothead{
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.botbody{
+  width: 110px;
+  height: 40px;
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.botFoots{
+  width: 110px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftEayr{
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 30% 0 0 30%;
+  height: 20px;
+}
+
+.rightEayr{
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid black;
+  height: 20px;
+  border-radius: 0 30% 30% 0;
+  z-index: 100;
+}
+
+.face{
+  border-bottom: 1px solid black;
+  height: 100%;
+  border-radius: 30%;
+  background: linear-gradient(90deg, rgba(129,129,133,1) 0%, rgba(246,251,251,1) 0%, rgba(218,213,213,1) 100%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 0 black;
+}
+
+.botFootsBottom {
+  width: 86px;
+  height: 40px;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 0 0 50% 50%;
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 5px 0 black;
+}
+
+.leftHand {
+  border: 1px solid black;
+  border-radius: 0 0 0 50%;
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 30px;
+}
+
+.rightHand {
+  border: 1px solid black;
+  border-radius: 0 50% 50% 0;
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 30px;
+  box-shadow: 5px 0 black;
+}
+
+.chest {
+  border: 1px solid black;
+  border-bottom: none;
+  box-shadow: 5px 0 black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(129,129,133,1) 0%, rgba(246,251,251,1) 0%, rgba(218,213,213,1) 100%);
+}
+
+.chestLabel {
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -30px;
+  z-index: 100;
+  font-family: monospace;
+  cursor: pointer;
+  font-weight: bold;
+
+  &:hover {
+    background: linear-gradient(0deg, dodgerblue 0%, grey 100%);
+  }
+}
+
+.topPart {
+  height: 10px;
+  background: linear-gradient(90deg, rgba(129,129,133,1) 0%, rgba(246,251,251,1) 0%, rgba(218,213,213,1) 100%);
+}
+
+.bottomPart {
+  height: 45%;
+  background: linear-gradient(90deg, rgba(129,129,133,1) 0%, rgba(246,251,251,1) 0%, rgba(218,213,213,1) 100%);
+  border-radius: 0 0 50% 50%;
+  border-bottom: 1px solid black;
+}
+
+.bothear {
+  width: 30px;
+  height: 10px;
+  background-image: url('https://us.123rf.com/450wm/cluckva/cluckva1601/cluckva160100031/50536556-wavy-geometric-pattern-eps10-vector-illustration-used-effect-transparency-layers-of-lines.jpg?ver=6');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center; 
+  margin-top: -10px;
+  margin-bottom: 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 0 black;
+}
+
+.botscreen {
+  width: 80px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-image: url('https://media.istockphoto.com/id/1139897714/vector/led-texture-screen-digital-video-wall-background-vector-blue-led-tv-display-dot-mesh.jpg?s=612x612&w=0&k=20&c=cFyD0LKmfkkVUEIxv2Iw6mAVrAIRpmbPG-cVQiLZDG0=');
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  background-position: center center; 
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 black;
+}
+
+.botyeas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  height: 20px;
+}
+
+.leftyea {
+  width: 10px;
+  background-color: rgba(0, 255, 255, 0.659);
+  border-radius: 6px;
+  transition: height 0.5s ease;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.leftyea.clip {
+  height: 3px;
+}
+
+.rightyea {
+  width: 10px;
+  height: 20px;
+  background-color: rgba(0, 255, 255, 0.659);
+  border-radius: 6px;
+}
+
+.botSmile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.botmouth {
+  width: 30px;
+  height: 8px;
+  background-color: rgba(0, 255, 255, 0.659);
+  border-radius: 0 0 50% 50%;
+  transition: width 0.5s ease;
+  animation-name: quiet;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  transform: scaleY(.4);
+}
+
+@keyframes quiet {
+  25%{
+    transform: scaleX(.6);
+  }
+  40%{
+    transform: scaleX(.7);
+  }
+  50%{
+    transform: scaleX(.4);
+  }
+  75%{
+    transform: scaleX(.8);
+  }
+}
+
+.offline {
+  color: rgba(0, 255, 255, 0.659);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: monospace;
+  font-weight: bold;
+}

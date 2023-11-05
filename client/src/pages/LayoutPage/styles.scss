@@ -1,0 +1,31 @@
+.container {
+  background-color: rgb(39 39 73);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  z-index: 100;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.layoutLink {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+
+  &:hover {
+    color: grey;
+  }
+}
